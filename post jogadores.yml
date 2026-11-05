@@ -1,0 +1,18 @@
+http:
+  method: POST
+  url: http://localhost:3000/jogadores
+  body:
+    type: json
+    data: |-
+      {
+        "nome": "Ana ",
+        "email": "ana@gmail.com",
+        "nickname": "painzeiraof"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
